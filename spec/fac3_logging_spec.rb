@@ -3,7 +3,7 @@ RSpec.describe Fac3Logging do
     expect(Fac3Logging::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
+  it 'railtie configure lograge' do
     expect(false).to eq(true)
   end
 end
