@@ -4,6 +4,6 @@ RSpec.describe Fac3Logging do
   end
 
   it 'railtie configure lograge' do
-    expect(false).to eq(true)
+    expect( Rails.config.lograge.enable ).to eq( true )
   end
 end
