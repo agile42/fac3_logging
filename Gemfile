@@ -16,4 +16,5 @@ group :test do
   gem 'rails'
   # gem 'lograge'
   gem 'sqlite3'
+  gem 'rspec-rails'
 end

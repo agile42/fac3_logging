@@ -9,7 +9,7 @@ Combustion.initialize! :all
 # Or, load just what you need:
 # Combustion.initialize! :active_record, :action_controller
 
-# require 'rspec/rails'
+require 'rspec/rails'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
