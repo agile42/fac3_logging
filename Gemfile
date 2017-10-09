@@ -8,13 +8,15 @@ gemspec
 # gem 'lograge'
 # gem 'remote_syslog_logger'
 
+group :development do
+  gem 'rails'
+  gem 'rspec-rails'
+end
 group :test do
-  gem 'activerecord'
   gem 'actionpack' # action_controller, action_view
   gem 'sprockets'
   gem 'actionmailer'
   gem 'rails'
   # gem 'lograge'
-  gem 'sqlite3'
   gem 'rspec-rails'
 end
