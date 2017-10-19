@@ -8,15 +8,12 @@ gemspec
 # gem 'lograge'
 # gem 'remote_syslog_logger'
 
-group :development do
-  gem 'rails'
-  gem 'rspec-rails'
-end
 group :test do
-  gem 'actionpack' # action_controller, action_view
-  gem 'sprockets'
-  gem 'actionmailer'
-  gem 'rails'
-  # gem 'lograge'
+  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+  gem 'rails', '~> 5.1.4'
+  # # Use Puma as the app server
+  # gem 'puma', '~> 3.7'
+
   gem 'rspec-rails'
 end
+
